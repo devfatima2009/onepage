@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(255, 251, 255);
+}
+.product-header{
+    display:flex;
+    gap: 400px;
+    margin:20px;
+    .right-header{
+        .right-link-header{
+            display:flex;
+            list-style-type: none;
+            gap:20px;
+            li{
+                a{
+                    text-decoration: none;
+                    color:rgb(5, 5, 5);
+                    font-weight: bold;
+                    padding: 25px 10px;
+                }
+            }
+        }
+    }
+}
+#hero-section{
+    .product-main{
+        display: flex;
+        align-items: center;
+        gap: 185px;
+        .left-product-section{
+            width:384px;
+            h1{
+                font-weight: bold;
+            }
+            button{
+                color:white;
+                background-color: #0250C5;
+                margin:10px 0px;
+                padding: 10px 30px;
+                border-radius: 6px;
+            }
+        }
+        .right-product-section{
+            width:350px;
+        }
+    }
+}
+#about-section{
+    .title-p{
+        text-align:center;
+        margin:97px 0px;
+    }
+    .inner-box{
+        width:100%;
+        padding: 27px 25px 35px;
+        position: relative;
+    }
+}
+#feature-section{
+    .title-p{
+        margin-bottom:47px;
+        text-align: center;
+    }
+    .left-feature{
+        .first-box{
+            display: flex;
+            gap:20px;
+            .icon{
+                font-size: 55px;
+                margin-right:20px;
+                text-align: center;
+                background-image: linear-gradient(55deg, #0250c5 0%, #d43f8d 100%);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                line-height: 60px;
+            }
+            .details{
+                text-align:right;
+            }
+        }
+    }
+    img{
+        max-width: 100%;
+        width:300px;
+    }
+    .right-feature{
+        display: flex;
+        gap:20px;
+    }
+}
